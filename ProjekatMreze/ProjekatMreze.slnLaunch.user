@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "TCPServer\\TCPServer.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "PlayerClient\\PlayerClient.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "ObserverClient\\ObserverClient.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
