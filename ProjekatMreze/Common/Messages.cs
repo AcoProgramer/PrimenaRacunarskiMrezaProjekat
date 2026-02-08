@@ -1,12 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Common
 {
-    internal class Messages
+    [Serializable]
+    public class SupportCommand
     {
+        public int RedniBrojIgraca { get; set; } 
     }
 }
+
