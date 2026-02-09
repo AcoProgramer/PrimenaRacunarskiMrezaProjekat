@@ -1,15 +1,24 @@
-Pogađanje slova
+# 🎮 Pogađanje slova
 
-Jednostavna igra pogađanja reči u kojoj igrač pokušava da otkrije skrivenu reč pogađanjem pojedinačnih slova. Cilj je pogoditi celu reč pre nego što se potroši dozvoljeni broj pokušaja.
+Cilj igre je pogoditi reč, a da ne igrac ne iskoristi sve pokusaje
 
-Kako se igra
+![guess-the-word](https://github.com/user-attachments/assets/ac5492fb-c9d4-4e42-9420-6aa3baff14a7)
 
-Sistem bira skrivenu reč.
+---
 
-Igrač unosi jedno slovo po potezu.
+## 🕹️ Tok igre
 
-Ako je slovo deo reči, otkrivaju se sve njegove pozicije.
+* **Sistem bira skrivenu reč** iz baze podataka ili unapred definisane liste.
+* **Igrač unosi jedno slovo** po potezu putem tastature.
+* **Otkrivanje pozicija:** Ako je slovo deo reči, prikazuju se sve njegove pozicije u reči.
+* **Smanjenje pokušaja:** Ako slovo nije deo reči, broj preostalih pokušaja se smanjuje.
+* **Kraj igre:** Igra se završava pobedom (sva slova pogođena) ili porazom (pokušaji istekli).
 
-Ako slovo nije deo reči, broj preostalih pokušaja se smanjuje.
+---
 
-Igra se završava pobedom kada su sva slova pogođena ili porazom kada pokušaji isteknu.
+## 📜 Pravila
+
+* ✅ **Jedno slovo:** Dozvoljen je unos samo jednog karaktera po potezu.
+* 🚫 **Bez ponavljanja:** Ista slova se ne mogu pogađati više puta.
+* 🔡 **Case-insensitive:** Velika i mala slova se tretiraju isto (npr. 'A' je isto što i 'a').
+* ⏳ **Limit:** Broj pokušaja je ograničen na fiksni broj (npr. 6 ili 10).
